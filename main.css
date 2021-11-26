@@ -1,0 +1,57 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-image: url(/assets/christopher-gower-unsplash.jpeg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.card {
+  width: 300px;
+  background: rgba(255, 255, 255, 0.15);
+  box-shadow: 0 16px 20px 7px rgba(31, 38, 135, 0.37);
+  backdrop-filter: blur(7px);
+  -webkit-backdrop-filter: blur(7px);
+  border-radius: 10px;
+  border: 1px solid rgba(255, 255, 255, 0.18);
+  margin: auto;
+  margin-top: 20em;
+  padding: 1em;
+  border-radius: 6px;
+}
+
+img {
+  display: block;
+  border: 3px solid #00acee;
+  border-radius: 100%;
+  margin: auto;
+}
+
+h3 {
+  text-align: center;
+  padding: 1em;
+  color: #f0680e;
+}
+p {
+  color: white;
+}
+
+ul {
+  width: 100%;
+  text-align: center;
+}
+
+li {
+  display: inline-block;
+  color: #00acee;
+  padding: 0.2em;
+  font-size: 2em;
+  margin: 0.5em;
+}
